@@ -23,7 +23,7 @@
   <section class="container pt-3">
     <h1 class="mb-3 text-center">Contact US</h1>
 
-    <form action="userInfo.php">
+    <form action="userInfo.php" method="POST">
       <div class="mb-3">
         <label for="name" class="form-label">Name :</label>
         <input type="text" class="form-control" id="name" name="name" required>
@@ -43,7 +43,7 @@
 
       </div>
       <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="check1">
+        <input type="checkbox" class="form-check-input" id="check1" name='check1'>
         <label class="form-check-label" for="check1">Check me out</label>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
